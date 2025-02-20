@@ -31,3 +31,5 @@ When generating galaxy mock, we get galaxy positions first and then adjust their
 For model with non-poissonity, we can just add parameter Gp as in halotools_Gp.ipynb.
 
 After generating galaxy mock, we can get a galaxy catalog  and we can obtaion galaxy position and velocity through: model_instance.mock.galaxy_table['x'],model_instance.mock.galaxy_table['y'],model_instance.mock.galaxy_table['z'],model_instance.mock.galaxy_table['vx'],model_instance.mock.galaxy_table['vy'],model_instance.mock.galaxy_table['vz'].
+
+The model_instance.mock.galaxy_table['gal_type'] contains the types of galaxy: centrals or satellites. 
